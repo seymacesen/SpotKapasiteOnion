@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpotKapasite.Domain\SpotKapasite.Domain.csproj" />
+    <ProjectReference Include="..\SpotKapasite.Infrastructure\SpotKapasite.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
